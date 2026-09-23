@@ -1,14 +1,20 @@
-# agent
+# 算子优化任务
 
 @tilelang-operator-dev/SKILL.md
 
-请优化算子 {op_name}：
-- GPU/CPU 参考实现：{reference_file}
-- shape：{shapes}
-- 约束：参考实现不做修改，tilelang npu交付，中文交付
+请优化算子 `{op_name}`：
 
-SSH 配置: {host: 10.x.x.x, user: ...}
+- **GPU/CPU 参考实现**：`{reference_file}`
+- **shape**：`{shapes}`
+- **约束**：参考实现不做修改，tilelang npu 交付，中文交付
 
+**SSH 配置**：`{host: 10.x.x.x, user: ...}`
+
+---
+
+**以下为注释，不属于 Prompt 输入：**
+
+```text
 # @skill 注入全部领域知识
 # 无需复杂 prompt 模板
 # 加载后自动按 10 步闭环执行
